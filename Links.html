@@ -1,0 +1,41 @@
+<!--
+HTML links are hyperlinks.
+Note: A link does not have to be text. A link can be an image or any other HTML element!
+The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+The link text is the part that will be visible to the reader.
+By default, links will appear as follows in all browsers:
+*An unvisited link is underlined and blue
+*A visited link is underlined and purple
+*An active link is underlined and red
+Use the <a> element to define a link
+Use the href attribute to define the link address
+Use the target attribute to define where to open the linked document
+Use the <img> element (inside <a>) to use an image as a link
+Use the mailto: scheme inside the href attribute to create a link that opens the user's email program
+<a>->this tag defines a hyperlink.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body style="background-color:powderblue;">
+    <!--An absolute URL (a full web address) in the href attribute.-->
+<h1>Absolute urls:
+    <p><a href ="https://www.google.com/">Google</a></p>
+    <p><a href ="https://x.com/home?lang=en-in">Twitter</a></p>
+</h1>
+<!--A local link (a link to a page within the same website) is specified with a relative URL (without the "https://www" part):-->
+<h2>Relatble urls:
+    <p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+</h2>
+<p><q>To know more about the author <a href="https://en.wikipedia.org/wiki/Rabindranath_Tagore">click here</a></q></p>
+<!--An example of an image link-->
+<p><a href="https://www.facebook.com/"><img src="https://www.svgrepo.com/show/357731/facebook.svg" width ="104" length = "142" alt="facebook"></a></p>
+<!--Link to an email address example.Note:Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email)-->
+<p><a href="mailto:nehaalisha269@gmail.com">Send email</a></p>
+<!--Button as a link example-->
+<button onclick="document.location='default.asp'" title="This is the Html Tutorial link">HTML Tutorial</button><!--Add link title by using tooltip text-->
+</body>
+</html>
