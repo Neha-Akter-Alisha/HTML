@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--CSS(Cascading Style Sheets)is used to format the layout of a webpage.
+Tip: The word cascading means that a style applied to a parent element will also apply to all children elements within the parent.
+So, if you set the color of the body text to "blue", all headings, paragraphs, and other text elements within the body will also get the same color (unless you specify something else)!-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+       h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+p {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+p {
+  border: 2px solid powderblue;
+  padding: 30px;
+  margin: 50px; 
+}
+
+        </style>
+ <link rel="stylesheet" href="/html/styles.css"><!--Link to External CSS-->
+
+</head>
+<body>
+    <!--Inline CSS uses style attributes-->
+    <h1 style="color:blue;">A Blue Heading</h1>
+    <p style="color:red;">A red paragraph.</p>
+</body>
+</html>
+<!--CSS can be added to HTML documents in 3 ways:
+
+Inline - by using the style attribute inside HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using a <link> element to link to an external CSS file
+The CSS margin property defines a margin (space) outside the border.
+The CSS padding property defines a padding (space) between the text and the border.
+The CSS border property defines a border around an HTML element.
+Tip: You can define a border for nearly all HTML elements.
+Use the HTML style attribute for inline styling
+Use the HTML <style> element to define internal CSS
+Use the HTML <link> element to refer to an external CSS file
+Use the HTML <head> element to store <style> and <link> elements
+Use the CSS color property for text colors
+Use the CSS font-family property for text fonts
+Use the CSS font-size property for text sizes
+-->
