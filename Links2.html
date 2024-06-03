@@ -1,0 +1,54 @@
+<!--By default, a link will appear like this (in all browsers):
+
+An unvisited link is underlined and blue
+A visited link is underlined and purple
+An active link is underlined and red
+We can change the default colors of a given link. For example:-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    a:link, a:visited {
+    color: green  ;
+    background-color: #ff4;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline block;
+    }
+    a:hover, a:active {
+    background-color: red ;
+    }
+  </style>
+</head>
+<body>
+  <h1>Link Colors</h1>
+  <p>You can change the default colors of this link styled as button </p>
+  <a href="https://en.wikipedia.org/wiki/Rabindranath_Tagore"target="_blank">Rabindranath wikipedia</a>
+  <br><pre>
+  <!--Use the id attribute (id="value") to define bookmarks in a page
+      Use the href attribute (href="#value") to link to the bookmark 
+  -->
+  <p><a href= "#C4">Jump to chapter 4</a></p>
+
+  <p><a href= "#C2">Jump to chapter 2 </a></p>
+
+  <h2 id="C1">chapter 1:<p> Lol this is funny</p></h2>
+
+  <h2 id="C2">chapter 2:<p> Lol this is funny</p></h2>
+
+  <h2 id="C3">chapter 3:<p> Lol this is funny</p></h2>
+
+  <h2 id="C4">chapter 4:<p> Lol this is funny</p></h2>
+
+  <h2 id="C5">chapter 5:<p> Lol this is funny</p></h2>
+
+  <h2 id="C6">chapter 6:<p> Lol this is funny</p></h2>
+
+  <h2 id="C7">chapter 7:<p> Lol this is funny</p></h2>
+</pre>
+</body>
+</html>
